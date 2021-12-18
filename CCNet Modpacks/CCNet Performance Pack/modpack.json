@@ -1,0 +1,21 @@
+{
+  "name" : "CCNet Performance Pack",
+  "title" : "CCNet Performance Pack (1.18.1)",
+  "gameVersion" : "1.18.1",
+  "features" : [ ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt",
+      "config/",
+      "resourcepacks/",
+      "servers.dat"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}
