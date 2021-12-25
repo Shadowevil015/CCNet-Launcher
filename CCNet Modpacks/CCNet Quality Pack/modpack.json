@@ -1,0 +1,19 @@
+{
+  "name" : "CCNet Quality Pack",
+  "title" : "CCNet Quality Pack (1.18.1)",
+  "gameVersion" : "1.18.1",
+  "features" : [ ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt",
+      "servers.dat"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}
